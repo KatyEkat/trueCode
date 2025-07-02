@@ -215,8 +215,15 @@ body {
   text-align: left;
 }
 
-.vacancy-bloc {
+.vacancy-block {
   padding: 0 24px;
+  margin-top: 35px;
+}
+
+.vacancy-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
 }
 
 .vacancy-card {
@@ -228,11 +235,17 @@ body {
   align-items: center;
   gap: 25px;
   padding: 20px 21px 29px 21px;
+  max-width: 328px;
 }
 
 .card-img {
-  width: 286px;
-  height: 214px;
+  width: 100%;
+  height: auto;
+}
+
+.card-img > svg {
+  width: 100%;
+  max-height: 214px;
 }
 
 .card-name {
@@ -306,4 +319,11 @@ body {
   color: rgb(248, 248, 251);
   background: rgb(177, 168, 203);
   border: rgb(177, 168, 203);
+}
+
+.vacancy-content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
