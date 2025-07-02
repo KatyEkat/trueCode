@@ -1,0 +1,309 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/fonts/Panton-Light.woff") format("woff"), url("../fonts/fonts/Panton-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/fonts/Panton-Regular.woff") format("woff"), url("../fonts/fonts/Panton-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/fonts/Panton-SemiBold.woff") format("woff"), url("../fonts/fonts/Panton-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/fonts/Panton-Bold.woff") format("woff"), url("../fonts/fonts/Panton-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Panton";
+  src: url("../fonts/fonts/Panton-ExtraBold.woff") format("woff"), url("../fonts/fonts/Panton-ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  background: rgb(242, 242, 254);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 17px 24px;
+}
+
+.header-top-bl {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.burger-btn {
+  background: unset;
+  border: none;
+  cursor: pointer;
+}
+
+.burger-menu {
+  display: none;
+  justify-content: space-between;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  left: 0;
+  top: 0;
+  padding: 55px;
+  background: rgb(242, 242, 254);
+}
+
+.burger-block {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.burger-items {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.burger-item {
+  color: rgb(53, 41, 88);
+  font-family: "Panton";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  background: unset;
+  border: unset;
+  text-decoration: none;
+}
+
+.request-btn {
+  color: rgb(53, 41, 88);
+  font-family: "Panton";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(53, 41, 88);
+  border-radius: 6px;
+  padding: 14px 30px;
+  background: rgb(248, 246, 255);
+  cursor: pointer;
+}
+
+.request-btn:hover {
+  color: rgb(248, 246, 255);
+  background: rgb(53, 41, 88);
+  border: 2px solid rgb(53, 41, 88);
+  transition: 0.2s;
+}
+
+.request-btn:active {
+  color: rgb(248, 248, 251);
+  background: rgb(177, 168, 203);
+  border: 2px solid rgb(177, 168, 203);
+}
+
+.burger-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.burger-social-media {
+  display: flex;
+  flex-direction: row;
+  gap: 13px;
+}
+
+.burger-items-hidden {
+  display: none;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.show-items {
+  display: flex;
+}
+
+.active {
+  color: rgb(53, 41, 88);
+  font-family: "Panton";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  text-align: center;
+}
+
+.burger-submenu {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+
+.header-contacts-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header-contacts-miniblock {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contacts-item {
+  color: rgb(53, 41, 88);
+  font-family: "Panton";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 150%;
+  text-align: left;
+  text-decoration: none;
+}
+
+.heading {
+  color: rgb(0, 0, 0);
+  font-family: "Panton";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: left;
+}
+
+.main {
+  padding: 0 24px;
+}
+
+.main-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.main-description {
+  color: rgb(0, 0, 0);
+  font-family: "Panton";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: left;
+}
+
+.vacancy-bloc {
+  padding: 0 24px;
+}
+
+.vacancy-card {
+  border: 2px solid rgb(53, 41, 88);
+  border-radius: 30px;
+  background: rgb(248, 246, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+  padding: 20px 21px 29px 21px;
+}
+
+.card-img {
+  width: 286px;
+  height: 214px;
+}
+
+.card-name {
+  color: rgb(0, 0, 0);
+  font-family: "Panton";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: center;
+}
+
+.card-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.request-purple {
+  color: rgb(248, 246, 255);
+  font-family: "Panton";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(53, 41, 88);
+  border-radius: 10px;
+  background: rgb(53, 41, 88);
+  width: 131px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.request-purple:hover {
+  color: rgb(53, 41, 88);
+  border: 2px solid rgb(248, 246, 255);
+  background: rgb(248, 246, 255);
+  transition: 0.2s;
+}
+
+.request-purple:active {
+  color: rgb(248, 248, 251);
+  background: rgb(177, 168, 203);
+  border: rgb(177, 168, 203);
+}
+
+.request-white {
+  color: rgb(53, 41, 88);
+  font-family: "Panton";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 2px solid rgb(53, 41, 88);
+  border-radius: 10px;
+  background: rgb(248, 246, 255);
+  width: 131px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.request-white:hover {
+  color: rgb(248, 246, 255);
+  border: 2px solid rgb(53, 41, 88);
+  background: rgb(53, 41, 88);
+  transition: 0.2s;
+}
+
+.request-white:active {
+  color: rgb(248, 248, 251);
+  background: rgb(177, 168, 203);
+  border: rgb(177, 168, 203);
+}/*# sourceMappingURL=styles.css.map */
