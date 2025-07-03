@@ -39,6 +39,10 @@
   font-style: normal;
   font-display: swap;
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(242, 242, 254);
 }
@@ -74,6 +78,16 @@ body {
   top: 0;
   padding: 55px;
   background: rgb(242, 242, 254);
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+.burger-menu.show-items {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .burger-block {
@@ -113,6 +127,7 @@ body {
   padding: 14px 30px;
   background: rgb(248, 246, 255);
   cursor: pointer;
+  text-decoration: none;
 }
 
 .request-btn:hover {
@@ -275,6 +290,10 @@ body {
   width: 131px;
   height: 48px;
   cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .request-purple:hover {
@@ -351,9 +370,9 @@ body {
 
 .form-line-no-underline {
   display: flex;
-  flex-direction: row;
-  gap: 10px;
+  flex-direction: column;
   width: 100%;
+  align-items: flex-start;
 }
 
 .form-input {
@@ -429,7 +448,8 @@ body {
   background-repeat: repeat;
   background-size: 100% 28px;
   padding: 0;
-  margin: 0;
+  margin-top: -19px;
+  text-indent: 160px;
 }
 
 .checkbox-group {
@@ -488,4 +508,35 @@ body {
   gap: 30px;
   align-items: center;
   padding: 34px 0 38px 0;
+}
+
+.checkbox {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.custom-checkbox {
+  display: inline-block;
+  position: relative;
+  width: 28px;
+  height: 28px;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+.checkbox-check {
+  position: absolute;
+  top: -3px;
+  left: 8.4px;
+  display: none;
+}
+
+.checkbox:checked + .form-agree-label .checkbox-check {
+  display: block;
+}
+
+.form-agree-label {
+  display: flex;
+  margin-top: 20.5px;
 }/*# sourceMappingURL=styles.css.map */
