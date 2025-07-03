@@ -1,0 +1,114 @@
+@media (min-width: 1440px) {
+  .header-desc {
+    display: flex;
+    padding: 25px 107px;
+    gap: 125px;
+  }
+  .header-menu-items {
+    gap: 82px;
+  }
+  .header-menu-block {
+    gap: 82px;
+    justify-content: flex-end;
+  }
+  .main {
+    padding: 0 107px;
+  }
+  .vacancy-block {
+    padding: 0 107px;
+    margin-top: 35px;
+  }
+  .vacancy-card {
+    gap: unset;
+    padding: 20px 21px 29px 21px;
+    max-width: 385px;
+    height: 444px;
+  }
+  .request-purple,
+  .request-white {
+    width: 158px;
+    height: 45px;
+  }
+  .card-name {
+    margin: 30px 0 32px 0;
+  }
+  .card-img > img {
+    width: 339px;
+    height: 267px;
+  }
+  .form {
+    padding: 0 71px;
+  }
+  .footer {
+    margin: 0 71px;
+  }
+  .textarea-lined {
+    margin-top: -22px;
+  }
+  .footer-mob {
+    display: none;
+  }
+  .footer-desc {
+    display: flex;
+    padding: 31px 30px 31px 37px;
+    justify-content: space-between;
+  }
+  .logo-miniblock {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: start;
+  }
+  .footer-desc-contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+  }
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+  }
+  .footer-phone {
+    color: rgb(53, 41, 88);
+    font-family: "Panton";
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration-line: unset;
+  }
+  .request-btn-footer {
+    color: rgb(53, 41, 88);
+    font-family: "Panton";
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(53, 41, 88);
+    border-radius: 6px;
+    width: 197px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(248, 246, 255);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .request-btn-footer:hover {
+    color: rgb(248, 246, 255);
+    background: rgb(53, 41, 88);
+    border: 2px solid rgb(53, 41, 88);
+    transition: 0.2s;
+  }
+  .request-btn-footer:active {
+    color: rgb(248, 248, 251);
+    background: rgb(177, 168, 203);
+    border: 2px solid rgb(177, 168, 203);
+  }
+  .footer-desctop {
+    margin-top: 80px;
+  }
+}/*# sourceMappingURL=media1440.css.map */
