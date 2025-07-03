@@ -1,0 +1,32 @@
+@media (min-width: 1024px) {
+  .header-mob {
+    display: none;
+  }
+  .header-desc {
+    display: flex;
+    padding: 25px 25px;
+    gap: 30px;
+  }
+  .header-menu-items {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-items {
+    gap: 25px;
+  }
+  .request-btn-desc {
+    color: rgb(53, 41, 88);
+    font-family: "Panton";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(53, 41, 88);
+    border-radius: 6px;
+    padding: 13px 37px;
+    background: rgb(248, 246, 255);
+    cursor: pointer;
+    text-decoration: none;
+  }
+}/*# sourceMappingURL=media1024.css.map */

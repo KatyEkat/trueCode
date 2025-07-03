@@ -206,7 +206,7 @@ body {
 	gap: 12px;
 }
 
-.contacts-item {
+.contacts-item-mob {
 	color: rgb(53, 41, 88);
 	font-family: "Panton";
 	font-size: 14px;
@@ -566,4 +566,9 @@ body {
 .form-agree-label {
 	display: flex;
 	margin-top: 20.5px;
+}
+
+
+.header-desc{
+	display: none;
 }
