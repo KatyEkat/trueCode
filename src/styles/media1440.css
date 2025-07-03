@@ -117,7 +117,6 @@
   .heading-desc {
     color: rgb(0, 0, 0);
     font-family: "Panton";
-    font-size: 48px;
     font-weight: 700;
     line-height: 59px;
     text-align: left;
@@ -200,5 +199,14 @@
   .left-btn,
   .right-btn {
     cursor: pointer;
+  }
+  .form-gaus-bgr {
+    display: flex;
+    position: absolute;
+    left: -978px;
+    top: -107px;
+  }
+  .form-desc-bgr {
+    position: relative;
   }
 }/*# sourceMappingURL=media1440.css.map */

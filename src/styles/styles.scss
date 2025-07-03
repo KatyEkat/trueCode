@@ -218,7 +218,7 @@ body {
 .heading {
 	color: rgb(0, 0, 0);
 	font-family: "Panton";
-	font-size: 24px;
+	font-size: clamp(1.5rem, 1.1053rem + 2.1053vw, 3rem);
 	font-weight: 700;
 	line-height: 29px;
 }
@@ -582,4 +582,13 @@ body {
 
 .main-img-desctop {
 	display: none;
+}
+
+.form-gaus-bgr {
+	display: none;
+}
+
+.request-btn-block {
+	display: flex;
+	justify-content: center;
 }
