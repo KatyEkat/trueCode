@@ -43,7 +43,7 @@
     margin: 0 71px;
   }
   .textarea-lined {
-    margin-top: -22px;
+    margin-top: -23px;
   }
   .footer-mob {
     display: none;
@@ -110,5 +110,95 @@
   }
   .footer-desctop {
     margin-top: 80px;
+  }
+  .arrow-btn {
+    display: none;
+  }
+  .heading-desc {
+    color: rgb(0, 0, 0);
+    font-family: "Panton";
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    text-align: left;
+  }
+  .main-description-desc {
+    color: rgb(53, 41, 88);
+    font-family: "Panton";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: left;
+  }
+  .main-desctop {
+    display: flex;
+    gap: 112px;
+    padding: 0 339px 0 107px;
+    position: relative;
+    overflow: hidden;
+  }
+  .circle-img {
+    position: absolute;
+    right: -105px;
+  }
+  .hidden-img {
+    display: none;
+  }
+  .slider-buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .vacancy-content {
+    gap: 41px;
+    margin-bottom: 80px;
+  }
+  .card-name {
+    font-weight: 700;
+  }
+  .form-header {
+    font-weight: 700;
+  }
+  .form-label,
+  .form-input {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  .request-btn-form {
+    color: rgb(53, 41, 88);
+    font-family: "Panton";
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid rgb(53, 41, 88);
+    border-radius: 6px;
+    padding: 14px 30px;
+    background: rgb(248, 246, 255);
+    cursor: pointer;
+    text-decoration: none;
+    width: 235px;
+  }
+  .request-btn-form:hover {
+    color: rgb(248, 246, 255);
+    background: rgb(53, 41, 88);
+    border: 2px solid rgb(53, 41, 88);
+    transition: 0.2s;
+  }
+  .request-btn-form:active {
+    color: rgb(248, 248, 251);
+    background: rgb(177, 168, 203);
+    border: 2px solid rgb(177, 168, 203);
+  }
+  .request-btn-block {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+  .left-btn,
+  .right-btn {
+    cursor: pointer;
   }
 }/*# sourceMappingURL=media1440.css.map */

@@ -236,7 +236,7 @@ body {
 .main-description {
 	color: rgb(0, 0, 0);
 	font-family: "Panton";
-	font-size: 13px;
+	font-size: clamp(0.8125rem, 0.6316rem + 0.9649vw, 1.5rem);
 	font-weight: 400;
 	line-height: 16px;
 	text-align: left;
@@ -280,7 +280,7 @@ body {
 .card-name {
 	color: rgb(0, 0, 0);
 	font-family: "Panton";
-	font-size: 18px;
+	font-size: clamp(1.125rem, 1.0263rem + 0.5263vw, 1.5rem);
 	font-weight: 700;
 	line-height: 22px;
 	text-align: center;
@@ -486,7 +486,7 @@ body {
 .form-header {
 	color: rgb(0, 0, 0);
 	font-family: "Panton";
-	font-size: 24px;
+	font-size: clamp(1.5rem, 1.3026rem + 1.0526vw, 2.25rem);
 	font-weight: 700;
 	line-height: 29px;
 	text-align: center;
@@ -568,11 +568,18 @@ body {
 	margin-top: 20.5px;
 }
 
-
-.header-desc{
+.header-desc {
 	display: none;
 }
 
-.footer-desc{
+.footer-desc {
+	display: none;
+}
+
+.slider-buttons {
+	display: none;
+}
+
+.main-img-desctop {
 	display: none;
 }
