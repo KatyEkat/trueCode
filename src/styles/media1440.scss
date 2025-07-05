@@ -1,6 +1,7 @@
 @media (min-width: 1440px) {
 	.header-desc {
 		display: flex;
+		align-items: center;
 		padding: 25px 107px;
 		gap: 125px;
 	}
@@ -250,7 +251,7 @@
 		position: relative;
 	}
 
-	.main-img-desctop{
+	.main-img-desctop {
 		display: flex;
 	}
 }
